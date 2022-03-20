@@ -1,16 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { useEffect, useState } from 'react';
-import Countries from './Components/Country/Countries';
+import Countries from './Components/Countries/Countries';
 
 function App() {
   return (
     <div className="App">
-      {/* <LoadCountries></LoadCountries> */}
-      <Countries></Countries>
       
+      <Countries></Countries>
     </div>
-  )
+  );
 }
 // eita ager ta
 
