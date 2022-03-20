@@ -8,7 +8,7 @@ function App() {
       <LoadCountries></LoadCountries>
       
     </div>
-  );
+  )
 }
 
 function LoadCountries(){
