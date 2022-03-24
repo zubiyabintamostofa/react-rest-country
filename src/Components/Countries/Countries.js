@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Country from '../Country/Country';
+import Footer from '../Footer/Footer';
 import'./Countries.css'
 
 
@@ -23,6 +24,7 @@ const Countries = () => {
               key={country.cca3}></Country>)
             }
             </div>
+           <Footer></Footer>
         </div>
     );
 };
